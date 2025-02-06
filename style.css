@@ -1,0 +1,229 @@
+
+h1 {
+	text-align: center;
+}
+
+footer {
+	font-size: 20%;
+	text-align: right;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+#quiz-container, #result {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px 40px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.question {
+    margin-bottom: 40px;
+}
+
+.question-title {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.question-hint {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.options {
+    margin-top: 10px;
+}
+
+.options label {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 1.2em;
+    user-select: none;
+    color: #555;
+}
+
+.options input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.options .checkmark {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.options label:hover input ~ .checkmark {
+    background-color: #d5d5d5;
+}
+
+.options input:checked ~ .checkmark {
+    background-color: #007BFF;
+}
+
+.options .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.options input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.options .checkmark:after {
+    top: 7px;
+    left: 7px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+}
+
+#abschlussbericht {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 40px;
+
+}
+
+.result-title {
+    font-size: 1.6em;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+
+.result-item {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.abschlussbericht {
+    margin: 30px;
+    font-size: 1.2em;
+    line-height: 1.5;
+	background: #FFE4E1; 
+	color:#8B0000;
+}
+
+.abschlussbericht p {
+    margin-bottom: 15px;
+}
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    #quiz-container, #result {
+        width: 90%;
+        padding: 20px 25px;
+    }
+
+    .question-title {
+        font-size: 1.3em;
+    }
+
+    .question-hint {
+        font-size: 0.95em;
+    }
+
+    .options label {
+        font-size: 1.1em;
+        margin-bottom: 18px;
+    }
+
+    .options .checkmark {
+        height: 30px;
+        width: 30px;
+    }
+
+    .options .checkmark:after {
+        top: 9px;
+        left: 9px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .result-title {
+        font-size: 1.5em;
+    }
+
+    .result-item {
+        font-size: 1em;
+    }
+
+    .abschlussbericht {
+        font-size: 1.1em;
+    }
+}
+
+@media (max-width: 480px) {
+    #quiz-container, #result {
+        width: 100%;
+        padding: 15px 20px;
+        box-shadow: none;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    .question-title {
+        font-size: 1.2em;
+    }
+
+    .question-hint {
+        font-size: 0.9em;
+    }
+
+    .options label {
+        font-size: 1em;
+        margin-bottom: 15px;
+    }
+
+    .options .checkmark {
+        height: 35px;
+        width: 35px;
+    }
+
+    .options .checkmark:after {
+        top: 11px;
+        left: 11px;
+        width: 14px;
+        height: 14px;
+    }
+
+    .result-title {
+        font-size: 1.4em;
+    }
+
+    .result-item {
+        font-size: 0.95em;
+    }
+
+    .abschlussbericht {
+        font-size: 1em;
+    }
+}
