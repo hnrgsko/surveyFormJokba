@@ -1,9 +1,4 @@
 # surveyFormJokba
-+++++ KI generierte readme.txt +++++
-++++ PROMPT: Analysiere die folgenden drei Webdateien im Hinblick darauf, wie sie zusammenhängen, welche Funktionalität sie bieten und die allgemeine Struktur. Erkläre es in einer readme.txt anschließend so, dass IT'ler eines Unternehmens nachvollziehen können, wie die Dateien geschrieben und die Funktionsweise des Fragebogens implementiert wurde. Gehe dabei auch darauf ein, inwiefern eine Einbindung in das unternehmenseigene Intranet erfolgen könnte und, welche Wartungsmöglichkeiten es bietet. ++++
-
-
-
 Projektübersicht:
 Dynamischer Fragebogen zur Patienteneingruppierung, der als eigenständige statische Ressource in ein Intranet eingebunden werden kann.
 
@@ -40,3 +35,5 @@ Wartung & Einbindung:
 • survey_index.html dient als Einstiegspunkt und kann problemlos in ein Intranet integriert werden, da alle Ressourcen als statische Dateien vorliegen und intern referenziert werden können.
 
 Ende der README.txt
++++++ KI generierte readme.txt +++++
+++++ PROMPT: Analysiere die folgenden drei Webdateien im Hinblick darauf, wie sie zusammenhängen, welche Funktionalität sie bieten und die allgemeine Struktur. Erkläre es in einer readme.txt anschließend so, dass IT'ler eines Unternehmens nachvollziehen können, wie die Dateien geschrieben und die Funktionsweise des Fragebogens implementiert wurde. Gehe dabei auch darauf ein, inwiefern eine Einbindung in das unternehmenseigene Intranet erfolgen könnte und, welche Wartungsmöglichkeiten es bietet. ++++
