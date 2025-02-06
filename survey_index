@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Eingruppierung der Patienten</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Fragebogen zur Eingruppierung von Patientinnen und Patienten</h1>
+    <div id="quiz-container">
+	
+        <!-- Die Fragen werden hier dynamisch eingefügt -->
+    </div>
+    <div id="result">
+        <!-- Das Ergebnis wird hier angezeigt -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
